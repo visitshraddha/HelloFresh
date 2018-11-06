@@ -1,0 +1,19 @@
+TestNG is used for execution purpose.
+Go to RestApi.java and right click on it and choose as Run as TestNG test.
+
+src->HelloFresh->RestApi:
+This class is having all 3 API test scenarios.
+
+
+VerifyISOCodesInResponse method: This test is for verifying ISOCodes DE,GB,US in response IsoCodes from API
+
+CountriesSearchTests: 
+This class has different methods declared for search US/GB/DE individual countries response body from API response.
+
+verifyResponseUsingTheCodeUS method: US country response body will be verified in this method from API response
+
+verifyResponseUsingTheCodeDE method: DE country response body will be verified in this method from API response
+
+verifyResponseUsingTheCodeGB method: GB country response body will be verified in this method from API response
+
+verifyResponseUsingPOST method: This test will give result as failed as expected since no POST request is allowed for this API
